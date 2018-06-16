@@ -69,9 +69,9 @@ def all_supplies_in_holidays(holiday_hash)
       holidays.to_s
       binding.pry
       if holidays.size == 1
-        print "  #{holidays.to_s.capitalize}: #{supply_list.join}"
+        print "  #{holidays.to_s.capitalize}: #{supply_list.join(", ")}"
       else
-        print "  #{holidays.to_s.split(" ").capitalize.join}: #{supply_list.join}"
+        print "  #{holidays.to_s.split(" ").capitalize.join}: #{supply_list.join(", "}"
       end
     end
   end
