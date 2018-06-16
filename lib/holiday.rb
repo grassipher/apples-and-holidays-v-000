@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
         end
         new_holiday = new_holiday_array.join(",")
         binding.pry
-        print "  #{new_holiday}: #{supply_list.join(", ")}"
+        print "  #{new_holiday_array}: #{supply_list.join(", ")}"
     end
   end
 
