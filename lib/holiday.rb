@@ -71,9 +71,9 @@ def all_supplies_in_holidays(holiday_hash)
         new_holiday_array.each do |word|
           word.capitalize!
         end
-        new_holiday = new_holiday_array.join(" ")
+        new_holiday_string = new_holiday_array.join(" ")
         new_supply_list = supply_list.join(", ")
-        puts "  #{new_holiday}: #{new_supply_list}"
+        puts "  #{new_holiday_String}: #{new_supply_list}"
     end
   end
 
