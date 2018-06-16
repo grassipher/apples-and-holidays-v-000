@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
         end
         new_holiday.join(",")
         binding.pry
-        print "  #{holidays.to_s.split().capitalize.join(" ")}: #{supply_list.join(", ")}"
+        print "  #{new_holiday}: #{supply_list.join(", ")}"
     end
   end
 
