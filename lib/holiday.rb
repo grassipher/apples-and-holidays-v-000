@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season_list, holiday_list|
     puts "#{season_list.to_s.capitalize}:"
     holiday_list.each do |holidays, supply_list|
-      binding
+      binding.pry
       if holidays.size == 1
         print "  #{holidays.to_s.capitalize}: #{supply_list.join}"
       else
